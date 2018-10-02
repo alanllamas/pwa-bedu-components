@@ -1,0 +1,15 @@
+.tip{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #FFC107;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.tip-content{
+    width: 80%;
+}

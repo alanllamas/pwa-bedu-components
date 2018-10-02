@@ -1,0 +1,12 @@
+.down{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 90%;
+    color: #536DFE;
+}
+.down a{
+        color: #536DFE;
+}

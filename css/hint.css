@@ -1,0 +1,15 @@
+.hint{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #03A9F4;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.hint-content{
+    width: 80%;
+}
