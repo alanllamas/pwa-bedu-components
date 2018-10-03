@@ -1,15 +1,24 @@
+.hint *{
+    box-sizing: border-box;
+}
 .hint{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
     background-color: #03A9F4;
     justify-content: space-around;
     align-items: center;
     padding: 2%;
-    width: 90%;
+    max-width: 300px;
     margin: auto;
     color: white;
 }
+.hint i{
+    padding-left: 1rem;
+    padding-right:  2rem;
 
-.hint-content{
-    width: 80%;
 }
+
+/* .hint-content{
+    width: 80%;
+} */
