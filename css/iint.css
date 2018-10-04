@@ -1,0 +1,15 @@
+#iint-container{
+    display:flex;
+    flex-direction: column;
+
+}
+.option{
+    padding: 1rem;
+    background: #fafafa;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.option p{
+    width:80%;
+}
