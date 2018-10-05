@@ -5,6 +5,7 @@ fold = (e) => {
             if (option[i].nextSibling.nextSibling.style.display == 'none') {
                 option[i].nextSibling.nextSibling.style.display = 'block'
                 option[i].children[1].className = 'fa fa-chevron-up'
+                option[i].scrollIntoView();
             }else {
                 option[i].nextSibling.nextSibling.style.display = 'none'
                 option[i].children[1].className = 'fa fa-chevron-down'
@@ -17,7 +18,7 @@ fold = (e) => {
 }
 var container = document.getElementById('iint-container');
 
-for (var i = 0; i < 2; i++) {
+for (var i = 0; i < 5; i++) {
     container.innerHTML += `
         <div class="container">
             <div onclick="fold(${i})" class="option">

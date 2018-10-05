@@ -3,8 +3,8 @@
 // var resizing = false ;
 var container = document.getElementById('column-container');
 
-colNum = 5
-colArrange = 3
+colNum = 3
+colArrange = 2
 container.innerHTML  = "";
 for (var i = 0; i < colNum; i++) {
     console.log(i);

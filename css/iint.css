@@ -1,7 +1,6 @@
 #iint-container{
     display:flex;
     flex-direction: column;
-
 }
 .option{
     padding: 1rem;
@@ -12,4 +11,10 @@
 }
 .option p{
     width:80%;
+}
+@media (min-width:768px) {
+    #iint-container .container{
+        width: 70%;
+        margin: auto;
+    }
 }
